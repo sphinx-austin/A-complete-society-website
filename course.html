@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewpoint" content="with=device-width, initial-scale=1.0">
+
+    <title>Jkubsa Website</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+
+</head>
+
+<body>
+    <section class="sub-header">
+
+        <nav>
+            <a href="index.html"></a>
+                <img src="images/logo.jpg">
+            <div class="nav-links" id=navLinks>
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="revision.html">REVISION</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+        <h1>Biostatistics as a Course</h1>
+
+    </section>
+
+<!-----About Us content----->
+<section class="about-us">
+
+    <div class="row">
+        <div class="about-col">
+            <h1>Biostatistics as a Course in JKUAT</h1>
+
+            <p>Bio-statistics is a discipline that is fundamental to biomedical and agricultural research problems. The course offers advanced statistical techniques and methodology for design of experiments, analysis of data and many other areas of statistics within life sciences. Students of B.Sc. Biostatistics will learn both statistical theory and software programs, making them competent and marketable after graduation. Areas of employment of the graduate from this programme include academia, applied life science research and the private sector. Substantive problems in biomedical and agricultural research circumvented by global challenges of climate change and its correlates have triggered the development of Biostatistical methods. Biostatistics has improved our ability to draw valid inferences from life science data. The role of Biostatistics is thus to advance statistical science and its application primarily to life science problems.</p>
+            <p>We the students of Biostatistics in Jomo Kenyatta University of Agriculture and Technology desirous to secure for ourselves excellence, a splendid posterity, welfare, a sustainable social and professional network hereby constitute for ourselves an association. </p>
+        
+
+            <h3> PROGRAMME OBJECTIVES</h3>
+        
+            <p>The program of B.Sc. Biostatistics is intended to provide students with strong grounding in Biostatistical skills in order to fill the demonstrated need and demand for well-trained biostatisticians. This is based on sound training in modern Biostatistical methodology needed to design and analyze biomedical, epidemiological and agricultural research data. The Biostatistics programme includes a base of theoretical work complemented by practical analysis of real data. This prepares technically proficient biostatisticians to assist investigators with the design and analysis of their research data. In addition, it prepares its graduate for real-life data analysis and statistical inference thereby enabling them to draw appropriate conclusions from biomedical and other data types.</p>
+        
+
+            <h3>PROGRAM STRUCTURE AND REGULATIONS</h3>
+            <h2>Duration:</h2>
+
+            <p>The program takes a total of eight semesters with two semesters planned per academic year.</p>
+            
+        
+            <h2>Courses:</h2>
+            <p>There are six required course units in every semester. In the first academic year, each student is required to take three (3) university and one (1) faculty units. In the fourth academic year each student takes one university unit and one additional elective unit. Each student shall be required to undertake practical attachment for a period of not less than 8 weeks at the end of the 8th semester.</p>
+            <p>Additional units are also available on consultation during the 2nd, 3rd and 4th years. (these do not count towards the classification of the degree but will appear on the transcripts).</p>
+            <p>One unit is defined as a series of 35 one lecture hours with a three-hour practical period and a two hour tutorial period being equivalent to a three-hour lecture.</p>
+            
+            <h2>Mode of Study:</h2>
+            <p>This is a full time program at JKUAT and is conducted during normal semester time.</p>
+
+            <h2>Regulations:</h2>
+            <p>All JKUAT University Regulations and the regulations of the degree of Bachelor of Science in Biostatistics apply.</p>
+
+            <h2>Examinations:</h2>
+            <p>Examinations are taken at the end of every semester for the courses taken that semester. The University and Faculty of Science Examinations rules and regulations for the degree programmes apply.</p>
+
+            <h2></h2>
+            <p></p>
+        </div>
+    </div>
+
+</section>
+
+
+
+
+<!------Footer------>
+<footer class="footer">
+    <div class="footer__container bd-container">
+        <h3 class="footer__title">About Us</h3>
+        <p class="footer__description">We the students of Biostatistics in Jomo Kenyatta University of Agriculture and Technology desirous to secure for ourselves <br>excellence, a splendid posterity, welfare, a sustainable social and professional network hereby constitute for ourselves an association</p>
+        
+        <div class="footer__social">
+                <a href="#" class="footer__link"><i class='bx bxl-facebook' ></i></a>
+                <a href="#" class="footer__link"><i class='bx bxl-twitter' ></i></a>
+                <a href="#" class="footer__link"><i class='bx bxl-instagram' ></i></a>
+                <a href="#" class="footer__link"><i class='bx bxl-telegram' ></i></a>
+        </div>
+        
+        <p class="footer__copy">&#169; 2022 JKUBSA. All rights reserved.</p>
+        <p>Developed by Hostine [+254745482169]</p>
+        <p>Consult me here</p>
+        <div class="footer__social">
+            <a href="#" class="footer__link"><i class='bx bxl-linkedin' ></i></a>
+            <a href="#" class="footer__link"><i class='bx bxl-twitter' ></i></a>
+            <a href="https://wa.me/+254745482169" class="footer__link"><i class='bx bxl-whatsapp' ></i></a>
+        
+    </div>
+</footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!------JavaScript for Toggle Menu------>
+<script>
+
+    var navLinks=document.getElementById("navLinks")
+
+    function showMenu(){
+        navLinks.style.right ="0";
+    }
+    function hideMenu(){
+        navLinks.style.right ="-200px";
+    }
+
+</script>
+
+
+</body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</html>

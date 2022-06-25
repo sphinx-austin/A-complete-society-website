@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewpoint" content="with=device-width, initial-scale=1.0">
+
+    <title>Jkubsa Website</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+    <section class="sub-header">
+
+        <nav>
+            <a href="index.html"></a>
+                <img src="images/logo.jpg">
+            <div class="nav-links" id=navLinks>
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="revision.html">REVISION</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+        <h1>Contact Us</h1>
+
+    </section> 
+
+<!-----Contact Us----->
+<section class="location">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2820.70929158656!2d37.01380190696604!3d-1.0982852850999296!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f463ca93fed13%3A0xb5ac58f68762cb12!2sNew%20Science%20Complex%20Lecture%20Theaters!5e0!3m2!1sen!2ske!4v1634290389816!5m2!1sen!2ske" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+</section>
+
+<section class="contact-us">
+    <div class="row">
+        <div class="contact-col">
+            <div>
+                <i class="fa fa-home"></i>
+                <span>
+                    <h5>New Science Complex Building</h5>
+                    <p>JKUAT, Juja</p>
+                </span>
+            </div>
+
+            <div>
+                <i class="fa fa-phone"></i>
+                <span>
+                    <h5>Patron</h5>
+                    <h5>+254 723440110</h5>
+                    <p>Monday to Saturday, 8am to 09:59pm</p>
+                </span>
+            </div>
+
+            <div>
+                <i class="fa fa-phone"></i>
+                <span>
+                    <h5>Chairperson</h5>
+                    <h5>+254 111432669</h5>
+                    <p>Monday to Saturday, 8am to 09:59pm</p>
+                </span>
+            </div>
+
+            <div>
+                <i class="fa fa-phone"></i>
+                <span>
+                    <h5>Secretary General</h5>
+                    <h5>+254 759098947</h5>
+                    <p>Monday to Saturday, 8am to 09:59pm</p>
+                </span>
+            </div>
+
+            <div>
+                <i class="fa fa-phone"></i>
+                <span>
+                    <h5>Treasurer</h5>
+                    <h5>+254 742852019</h5>
+                    <p>Monday to Saturday, 8am to 09:59pm</p>
+                </span>
+            </div>
+
+            <div>
+                <i class="fa fa-phone"></i>
+                <span>
+                    <h5>Academic Sec</h5>
+                    <h5>+254 745482169</h5>
+                    <p>Monday to Saturday, 8am to 09:59pm</p>
+                </span>
+            </div>
+
+            <div>
+                <i class="fa fa-phone"></i>
+                <span>
+                    <h5>Organizing Sec</h5>
+                    <h5>+254 798756367</h5>
+                    <p>Monday to Saturday, 8am to 09:59pm</p>
+                </span>
+            </div>
+
+            <div>
+                <i class="fa fa-phone"></i>
+                <span>
+                    <h5>Public Relations</h5>
+                    <h5>+254 726549466</h5>
+                    <p>Monday to Saturday, 8am to 09:59pm</p>
+                </span>
+            </div>
+
+            <div>
+                <i class="fa fa-envelope-o"></i>
+                <span>
+                    <h5>info@jkubsa.com</h5>
+                    <p>Email us your query</p>
+                    <p>Monday to Sunday, 7am to 11:59pm</p>
+                </span>
+            </div>
+        </div>
+
+        <div class="contact-col">
+
+            <form action="form-handler.php" method="post">
+                <input type="text" name="name" placeholder="Enter your name" required>
+                <input type="email" name="email" placeholder="Enter Email Address" required>
+                <input type="text" name="subject" placeholder="Enter your subject" required>
+                <textarea name ="message" rows="8" placeholder="Message" required></textarea>
+                <button type="submit" name="submit" class="hero-btn red-btn">Send Message</button>
+            </form>
+
+        </div>
+    </div>
+</section>
+
+
+
+
+
+<!------Footer------>
+<footer class="footer">
+    <div class="footer__container bd-container">
+        <h3 class="footer__title">About Us</h3>
+        <p class="footer__description">We the students of Biostatistics in Jomo Kenyatta University of Agriculture and Technology desirous to secure for ourselves <br>excellence, a splendid posterity, welfare, a sustainable social and professional network hereby constitute for ourselves an association</p>
+        
+        <div class="footer__social">
+                <a href="#" class="footer__link"><i class='bx bxl-facebook' ></i></a>
+                <a href="#" class="footer__link"><i class='bx bxl-twitter' ></i></a>
+                <a href="#" class="footer__link"><i class='bx bxl-instagram' ></i></a>
+                <a href="#" class="footer__link"><i class='bx bxl-telegram' ></i></a>
+        </div>
+        
+        <p class="footer__copy">&#169; 2022 JKUBSA. All rights reserved.</p>
+        <p>Developed by Hostine [+254745482169]</p>
+        <p>Consult me here</p>
+        <div class="footer__social">
+            <a href="#" class="footer__link"><i class='bx bxl-linkedin' ></i></a>
+            <a href="#" class="footer__link"><i class='bx bxl-twitter' ></i></a>
+            <a href="https://wa.me/+254745482169" class="footer__link"><i class='bx bxl-whatsapp' ></i></a>
+        
+    </div>
+</footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!------JavaScript for Toggle Menu------>
+<script>
+
+    var navLinks=document.getElementById("navLinks")
+
+    function showMenu(){
+        navLinks.style.right ="0";
+    }
+    function hideMenu(){
+        navLinks.style.right ="-200px";
+    }
+
+</script>
+
+
+</body>
+
+
+</html>
